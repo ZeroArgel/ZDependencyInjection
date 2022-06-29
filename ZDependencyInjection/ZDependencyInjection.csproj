@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <LangVersion>9.0</LangVersion>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RootNamespace>ZADependencyInjection</RootNamespace>
+    <AssemblyName>ZADependencyInjection</AssemblyName>
+    <PackageTags>Dependency Injection ORM ZA</PackageTags>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
+    <PackageId>ZADependencyInjection</PackageId>
+    <Authors>Kevin Perez</Authors>
+    <Company>ZeroArgel</Company>
+    <Product>ZADependencyInjection</Product>
+    <Title>ZADependencyInjection</Title>
+    <Description>
+      ZADependencyInjection is a simple project to create a dependency injection in Xamarin Forms, but this project can be used wherever you want.
+
+      If you have any questions about its use contact me, dont worry i delay response but response you.
+    </Description>
+    <PackageIcon>Logo.png</PackageIcon>
+    <Copyright>Zero Argel - 2021</Copyright>
+    <PackageLicenseFile>Licence.txt</PackageLicenseFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".\Logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="Licence.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
