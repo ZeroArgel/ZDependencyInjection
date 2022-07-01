@@ -7,9 +7,9 @@
     <RootNamespace>ZADependencyInjection</RootNamespace>
     <AssemblyName>ZADependencyInjection</AssemblyName>
     <PackageTags>Dependency Injection ORM ZA</PackageTags>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
-    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <FileVersion>1.0.3.0</FileVersion>
+    <Version>1.0.3</Version>
     <PackageId>ZADependencyInjection</PackageId>
     <Authors>Kevin Perez</Authors>
     <Company>ZeroArgel</Company>

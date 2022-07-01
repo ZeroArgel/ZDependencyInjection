@@ -6,12 +6,9 @@
     using System.Linq;
     public class ZServices : IZServices
     {
-        public ZServices()
+        public ZServices(IConfiguration configuration)
         {
-            _configuration = new ConfigurationBuilder()
-                .AddEnvironmentVariables()
-                .AddJsonFile(@"appsettings.json", true)
-                .Build();
+            _configuration = configuration;
             Services = new List<ZDependencyInjection>();
         }
         private List<ZDependencyInjection> Services { get; }
